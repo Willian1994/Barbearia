@@ -16,11 +16,13 @@ public class Main {
         System.out.println(servico.getDescrição());
         System.out.println(servico.getValor());
         
-        Cliente cliente =  new Cliente(1, "tiago", 'M', "999999999", "rua A");
-        System.out.println(cliente);
         
-        Usuario usuario = new Usuario(1, "barbeiro", "senha");
-        System.out.println(usuario);
+        
+        Cliente cliente = new Cliente(1, "Willian", "Rua teste", "33333333");
+        System.out.println(cliente.getNome());
+        
+        Usuario usuario = new Usuario(1, "Barbeiro", "senha");
+        System.out.println(usuario.getNome());
     }
     
     
